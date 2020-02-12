@@ -15,6 +15,7 @@
 		177FFFD323F45694004FF727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177FFFD123F45694004FF727 /* LaunchScreen.storyboard */; };
 		177FFFDE23F45694004FF727 /* GroceriesTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177FFFDD23F45694004FF727 /* GroceriesTrackerTests.swift */; };
 		177FFFE923F45694004FF727 /* GroceriesTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177FFFE823F45694004FF727 /* GroceriesTrackerUITests.swift */; };
+		C974D20423F45E5F006AE22F /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974D20323F45E5F006AE22F /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		177FFFE423F45694004FF727 /* GroceriesTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		177FFFE823F45694004FF727 /* GroceriesTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesTrackerUITests.swift; sourceTree = "<group>"; };
 		177FFFEA23F45694004FF727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C974D20323F45E5F006AE22F /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				177FFFD123F45694004FF727 /* LaunchScreen.storyboard */,
 				177FFFD423F45694004FF727 /* Info.plist */,
 				177FFFCE23F45694004FF727 /* Preview Content */,
+				C974D20323F45E5F006AE22F /* Alerts.swift */,
 			);
 			path = GroceriesTracker;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				177FFFC723F45693004FF727 /* AppDelegate.swift in Sources */,
 				177FFFC923F45693004FF727 /* SceneDelegate.swift in Sources */,
+				C974D20423F45E5F006AE22F /* Alerts.swift in Sources */,
 				177FFFCB23F45693004FF727 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
